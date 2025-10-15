@@ -55,7 +55,6 @@ namespace Randomizer
 
             try
             {
-                // Воспроизводим музыку вращения
                 PlayRotationMusic();
 
                 rotationAngle = ArrowTransform.Angle;
@@ -86,7 +85,7 @@ namespace Randomizer
         {
             try
             {
-                string musicPath = "D:\\GovnoCodeC#\\Randomizer\\Randomizer\\Randomizer\\bam_bam.mp3";
+                string musicPath = "..\\..\\bam_bam.mp3";
 
                 if (File.Exists(musicPath))
                 {
